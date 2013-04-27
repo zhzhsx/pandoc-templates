@@ -127,6 +127,10 @@ $endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
 
+$if(ctex)$
+\usepackage{ctex}
+$endif$
+
 \begin{document}
 $if(title)$
 \maketitle

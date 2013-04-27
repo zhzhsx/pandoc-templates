@@ -116,6 +116,10 @@ $if(date)$
 \date{$date$}
 $endif$
 
+$if(ctex)$
+\usepackage{ctex}
+$endif$
+
 \begin{document}
 $if(title)$
 \frame{\titlepage}
